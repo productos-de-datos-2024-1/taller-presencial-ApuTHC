@@ -1,0 +1,35 @@
+2024-04-06 07:32:09,139:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2024-04-06 07:32:09,139:INFO:[33mPress CTRL+C to quit[0m
+2024-04-06 07:32:09,140:INFO: * Restarting with stat
+2024-04-06 07:32:09,581:WARNING: * Debugger is active!
+2024-04-06 07:32:09,581:INFO: * Debugger PIN: 868-799-415
+2024-04-06 07:38:32,562:INFO:User values: {'bedrooms': [3], 'bathrooms': [2], 'sqft_living': [1800], 'sqft_lot': [2200], 'floors': [1], 'waterfront': [1], 'condition': [3]}
+2024-04-06 07:38:32,566:INFO:127.0.0.1 - - [06/Apr/2024 07:38:32] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-04-06 07:42:15,953:INFO:User values: {'bedrooms': [3], 'bathrooms': [2], 'sqft_living': [1800], 'sqft_lot': [2200], 'floors': [1], 'waterfront': [1], 'condition': [3]}
+2024-04-06 07:42:15,956:INFO:127.0.0.1 - - [06/Apr/2024 07:42:15] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-04-06 07:42:40,366:INFO:User values: {'bedrooms': [3], 'bathrooms': [2], 'sqft_living': [1800], 'sqft_lot': [2200], 'floors': [1], 'waterfront': [1], 'condition': [3]}
+2024-04-06 07:42:40,369:INFO:127.0.0.1 - - [06/Apr/2024 07:42:40] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-04-06 07:51:11,717:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2024-04-06 07:51:11,717:INFO:[33mPress CTRL+C to quit[0m
+2024-04-06 07:51:11,717:INFO: * Restarting with stat
+2024-04-06 07:51:12,189:WARNING: * Debugger is active!
+2024-04-06 07:51:12,189:INFO: * Debugger PIN: 868-799-415
+2024-04-06 07:51:15,405:INFO:User values: {'bedrooms': [3], 'bathrooms': [2], 'sqft_living': [1800], 'sqft_lot': [2200], 'floors': [1], 'waterfront': [1], 'condition': [3]}
+2024-04-06 07:51:16,244:INFO:Prediction: [1605832.10562042]
+2024-04-06 07:51:16,245:INFO:127.0.0.1 - - [06/Apr/2024 07:51:16] "POST / HTTP/1.1" 200 -
+2024-04-06 07:53:38,528:INFO: * Detected change in '/home/aputhc/Documents/ProductosDatos/taller-presencial-ApuTHC/src/6b_api_server/client-example.py', reloading
+2024-04-06 07:53:38,739:INFO: * Restarting with stat
+2024-04-06 07:53:39,326:WARNING: * Debugger is active!
+2024-04-06 07:53:39,327:INFO: * Debugger PIN: 868-799-415
+2024-04-06 07:55:59,356:INFO: * Detected change in '/home/aputhc/Documents/ProductosDatos/taller-presencial-ApuTHC/src/6b_api_server/client-example.py', reloading
+2024-04-06 07:55:59,482:INFO: * Restarting with stat
+2024-04-06 07:55:59,959:WARNING: * Debugger is active!
+2024-04-06 07:55:59,959:INFO: * Debugger PIN: 868-799-415
+2024-04-06 08:21:02,598:INFO:User values: {'bedrooms': [3], 'bathrooms': [2], 'sqft_living': [1800], 'sqft_lot': [2200], 'floors': [1], 'waterfront': [1], 'condition': [3]}
+2024-04-06 08:21:03,128:INFO:Prediction: [1605832.10562042]
+2024-04-06 08:21:03,129:INFO:127.0.0.1 - - [06/Apr/2024 08:21:03] "POST / HTTP/1.1" 200 -
+2024-04-06 09:13:41,452:INFO:User values: {'bedrooms': [3], 'bathrooms': [1], 'sqft_living': [1180], 'sqft_lot': [5650], 'floors': [1], 'waterfront': [0], 'condition': [1]}
+2024-04-06 09:13:41,454:INFO:Prediction: [155849.90294016]
+2024-04-06 09:13:41,455:INFO:127.0.0.1 - - [06/Apr/2024 09:13:41] "POST / HTTP/1.1" 200 -
