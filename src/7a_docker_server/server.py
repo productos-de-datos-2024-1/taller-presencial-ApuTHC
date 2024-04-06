@@ -1,6 +1,36 @@
+import json
+import logging
+import os.path
+import pickle
+
+import pandas as pd
+import pkg_resources
+from flask import Flask, request
+
+
+# -----------------------------------------------------------------------------
+# Logging
+# -----------------------------------------------------------------------------
+
+
+CONFIG_FILE = "config.json"
+
+if not pkg_resources.resource_exists(__name__, CONFIG_FILE):
+    raise FileNotFoundError(f"File {CONFIG_FILE} not found")
+
+with pkg_resources.resource_stream(__name__, CONFIG_FILE) as f:
+    config = json.load(f)
+
+logging.basicConfig(
+    filename=os.path.join(config["logs_dir"], config["api_server_log"]),
+    level=logging.INFO,
+    format="%(asctime)s:%(levelname)s:%(message)s",
+)
+
 # -----------------------------------------------------------------------------
 # API Server
 # -----------------------------------------------------------------------------
+
 
 app = Flask(__name__)
 app.config["SECRET_KEY"] = "api-server-secret-key"

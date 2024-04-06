@@ -1,0 +1,35 @@
+2024-04-06 16:31:45,054:INFO:Starting the application
+2024-04-06 16:31:45,061:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+2024-04-06 16:31:45,061:INFO:[33mPress CTRL+C to quit[0m
+2024-04-06 16:31:45,062:INFO: * Restarting with stat
+2024-04-06 16:31:45,333:INFO:Starting the application
+2024-04-06 16:31:45,337:WARNING: * Debugger is active!
+2024-04-06 16:31:45,338:INFO: * Debugger PIN: 123-371-710
+2024-04-06 16:31:57,198:INFO:172.18.0.1 - - [06/Apr/2024 16:31:57] "GET / HTTP/1.1" 200 -
+2024-04-06 16:31:59,194:INFO:----------------------------------------
+2024-04-06 16:31:59,195:INFO:User values: {'bedrooms': 3.0, 'bathrooms': 1.0, 'sqft_living': 1180.0, 'sqft_lot': 5650.0, 'floors': 1.0, 'waterfront': 0, 'condition': 1}
+2024-04-06 16:31:59,229:INFO:172.18.0.1 - - [06/Apr/2024 16:31:59] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-04-06 16:31:59,275:INFO:172.18.0.1 - - [06/Apr/2024 16:31:59] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-06 16:31:59,276:INFO:172.18.0.1 - - [06/Apr/2024 16:31:59] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-06 16:31:59,296:INFO:172.18.0.1 - - [06/Apr/2024 16:31:59] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-06 16:35:51,164:INFO:Finishing the application
+2024-04-06 16:35:51,232:INFO:Finishing the application
+2024-04-06 16:50:07,727:INFO:Starting the application
+2024-04-06 16:50:07,737:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+2024-04-06 16:50:07,737:INFO:[33mPress CTRL+C to quit[0m
+2024-04-06 16:50:07,738:INFO: * Restarting with stat
+2024-04-06 16:50:08,069:INFO:Starting the application
+2024-04-06 16:50:08,075:WARNING: * Debugger is active!
+2024-04-06 16:50:08,076:INFO: * Debugger PIN: 123-371-710
+2024-04-06 16:50:13,146:INFO:172.18.0.1 - - [06/Apr/2024 16:50:13] "GET / HTTP/1.1" 200 -
+2024-04-06 16:50:15,385:INFO:172.18.0.1 - - [06/Apr/2024 16:50:15] "GET / HTTP/1.1" 200 -
+2024-04-06 16:50:17,500:INFO:----------------------------------------
+2024-04-06 16:50:17,503:INFO:User values: {'bedrooms': 3.0, 'bathrooms': 1.0, 'sqft_living': 1180.0, 'sqft_lot': 5650.0, 'floors': 1.0, 'waterfront': 0, 'condition': 1}
+2024-04-06 16:50:18,348:INFO:Prediction: 155849.9
+2024-04-06 16:50:18,349:INFO:172.18.0.1 - - [06/Apr/2024 16:50:18] "POST / HTTP/1.1" 200 -
